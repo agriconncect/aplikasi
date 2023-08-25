@@ -1,0 +1,227 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"li",
+				"li"
+			],
+			[
+				"ht",
+				"html"
+			],
+			[
+				"a",
+				"audio"
+			],
+			[
+				"te",
+				"text-primary"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/reza_fahrevi/Downloads/neumorphism_app_ui--main/event.html",
+		"/home/reza_fahrevi/Downloads/neumorphism_app_ui--main/settings.html",
+		"/home/reza_fahrevi/Downloads/neumorphism_app_ui--main/elements.html",
+		"/home/reza_fahrevi/Downloads/neumorphism_app_ui--main/page-blog-grid.html",
+		"/home/reza_fahrevi/Downloads/neumorphism_app_ui--main/page-chat-users.html",
+		"/home/reza_fahrevi/Downloads/neumorphism_app_ui--main/page-chat.html",
+		"/home/reza_fahrevi/Downloads/neumorphism_app_ui--main/page-forget-password-success.html",
+		"/home/reza_fahrevi/Downloads/neumorphism_app_ui--main/page-forget-password-failed.html",
+		"/home/reza_fahrevi/Downloads/neumorphism_app_ui--main/element-hero-blocks.html",
+		"/home/reza_fahrevi/Downloads/neumorphism_app_ui--main/page-register.html",
+		"/home/reza_fahrevi/Downloads/neumorphism_app_ui--main/lainnya.html",
+		"/home/reza_fahrevi/Downloads/neumorphism_app_ui--main/page-home.html",
+		"/home/reza_fahrevi/Downloads/neumorphism_app_ui--main/pages.html",
+		"/home/reza_fahrevi/Downloads/neumorphism_app_ui--main/page-login.html",
+		"/home/reza_fahrevi/Downloads/neumorphism_app_ui--main/index.html",
+		"/home/reza_fahrevi/Downloads/neumorphism_website-02-main/Persoanl/index.html",
+		"/home/reza_fahrevi/Downloads/neumorphism_website-02-main/Persoanl/index_01.html",
+		"/home/reza_fahrevi/Downloads/templatemo_570_chain_app_dev/index.html",
+		"/home/reza_fahrevi/Downloads/templatemo_577_liberty_market/index.html",
+		"/home/reza_fahrevi/Downloads/templatemo_577_liberty_market/author.html",
+		"/home/reza_fahrevi/Downloads/main/main.py",
+		"/home/reza_fahrevi/Downloads/templatemo_570_chain_app_dev/jasa desain.html",
+		"/home/reza_fahrevi/Downloads/ai/main.py",
+		"/home/reza_fahrevi/Downloads/templatemo_577_liberty_market/explore.html",
+		"/home/reza_fahrevi/Downloads/undangan-web/styles.css",
+		"/home/reza_fahrevi/Downloads/SIDOINIKAHV2/app/index.html",
+		"/home/reza_fahrevi/Downloads/SIDOINIKAHV2/app/Views/undangan/themes/blueroses.php",
+		"/home/reza_fahrevi/Downloads/SIDOINIKAHV2/app/Controllers/undangan/Undangan.php",
+		"/home/reza_fahrevi/Downloads/nextpage/nextpage-lite/banner.html",
+		"/home/reza_fahrevi/Downloads/nextpage/nextpage-lite/index.html",
+		"/home/reza_fahrevi/Downloads/nextpage/nextpage-lite/assets/css/style.css",
+		"/home/reza_fahrevi/Downloads/nextpage/nextpage-lite/assets/css/vendor.css",
+		"/home/reza_fahrevi/Downloads/nextpage/nextpage-lite/reza.html",
+		"/home/reza_fahrevi/Downloads/undangan-web/index.html",
+		"/home/reza_fahrevi/Downloads/tourly-master/index.html",
+		"/home/reza_fahrevi/undangan bunda/index.html",
+		"/home/reza_fahrevi/undangan bunda/style/jes/parallax.min.js",
+		"/home/reza_fahrevi/undangan bunda/style/jes/ekko-ligthbox.min.js",
+		"/home/reza_fahrevi/undangan bunda/style/jes/Aos.js",
+		"/home/reza_fahrevi/Downloads/free-wedding-website-template/css/style.css",
+		"/home/reza_fahrevi/audio.html",
+		"/home/reza_fahrevi/Downloads/free-wedding-website-template/js/main.js",
+		"/home/reza_fahrevi/free-wedding-website-template/index.html",
+		"/home/reza_fahrevi/Downloads/free-wedding-website-template/index.html",
+		"/home/reza_fahrevi/Downloads/wedding-starter-template/index.html"
+	],
+	"find":
+	{
+		"height": 31.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
