@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-  
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,7 +9,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags-->
     <!-- Title-->
-    <title>Agrii</title>
+    <title>AC-Mobile UI Neumorphism</title>
     <!-- Fonts-->
     <link rel="preconnect" href="https://fonts.gstatic.com/">
     <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
@@ -29,7 +28,7 @@
     <!-- Web App Manifest-->
     <link rel="manifest" href="manifest.json">
 </head>
-  <body class="pe-0">
+  <body>
     <!-- Preloader-->
     <div class="preloader d-flex align-items-center justify-content-center" id="preloader">
       <div class="spinner-grow text-primary" role="status">
@@ -49,7 +48,7 @@
 </svg></a></div>
           <!-- Page Title-->
           <div class="page-heading">
-            <h6 class="mb-0">User-Preneur</h6>
+            <h6 class="mb-0">Patnership</h6>
           </div>
           <!-- Navbar Toggler-->
           <div class="navbar--toggler" id="affanNavbarToggler"><span class="d-block"></span><span class="d-block"></span><span class="d-block"></span></div>
@@ -83,6 +82,7 @@
         </svg>
       </div>
       <!-- Sidenav Profile-->
+     
       <div class="sidenav-profile">
         <div class="sidenav-style1"></div>
         <!-- User Thumbnail-->
@@ -125,7 +125,7 @@
             <svg width="18" height="18" viewBox="0 0 16 16" class="bi bi-gear" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
 <path fill-rule="evenodd" d="M8.837 1.626c-.246-.835-1.428-.835-1.674 0l-.094.319A1.873 1.873 0 0 1 4.377 3.06l-.292-.16c-.764-.415-1.6.42-1.184 1.185l.159.292a1.873 1.873 0 0 1-1.115 2.692l-.319.094c-.835.246-.835 1.428 0 1.674l.319.094a1.873 1.873 0 0 1 1.115 2.693l-.16.291c-.415.764.42 1.6 1.185 1.184l.292-.159a1.873 1.873 0 0 1 2.692 1.116l.094.318c.246.835 1.428.835 1.674 0l.094-.319a1.873 1.873 0 0 1 2.693-1.115l.291.16c.764.415 1.6-.42 1.184-1.185l-.159-.291a1.873 1.873 0 0 1 1.116-2.693l.318-.094c.835-.246.835-1.428 0-1.674l-.319-.094a1.873 1.873 0 0 1-1.115-2.692l.16-.292c.415-.764-.42-1.6-1.185-1.184l-.291.159A1.873 1.873 0 0 1 8.93 1.945l-.094-.319zm-2.633-.283c.527-1.79 3.065-1.79 3.592 0l.094.319a.873.873 0 0 0 1.255.52l.292-.16c1.64-.892 3.434.901 2.54 2.541l-.159.292a.873.873 0 0 0 .52 1.255l.319.094c1.79.527 1.79 3.065 0 3.592l-.319.094a.873.873 0 0 0-.52 1.255l.16.292c.893 1.64-.902 3.434-2.541 2.54l-.292-.159a.873.873 0 0 0-1.255.52l-.094.319c-.527 1.79-3.065 1.79-3.592 0l-.094-.319a.873.873 0 0 0-1.255-.52l-.292.16c-1.64.893-3.433-.902-2.54-2.541l.159-.292a.873.873 0 0 0-.52-1.255l-.319-.094c-1.79-.527-1.79-3.065 0-3.592l.319-.094a.873.873 0 0 0 .52-1.255l-.16-.292c-.892-1.64.902-3.433 2.541-2.54l.292.159a.873.873 0 0 0 1.255-.52l.094-.319z"/>
 <path fill-rule="evenodd" d="M8 5.754a2.246 2.246 0 1 0 0 4.492 2.246 2.246 0 0 0 0-4.492zM4.754 8a3.246 3.246 0 1 1 6.492 0 3.246 3.246 0 0 1-6.492 0z"/>
-</svg>Settings</a></li>
+</svg>Patnership</a></li>
         <li>
           <div class="night-mode-nav">
             <svg width="18" height="18" viewBox="0 0 16 16" class="bi bi-moon" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -148,259 +148,97 @@
         <p>&copy; 2021 All rights reserved by<a href="#">Designing World</a></p>
       </div>
     </div>
-    <!-- Add new contact modal-->
-    <div class="add-new-contact-modal modal fade px-0" id="addnewcontact" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="addnewcontactlabel" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-          <div class="modal-body">
-            <div class="d-flex align-items-center justify-content-between mb-4">
-              <h6 class="modal-title" id="addnewcontactlabel">New message</h6>
-              <button class="btn btn-close p-1 ms-auto me-0" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <form action="#">
-              <div class="input-group mb-3"><span class="input-group-text" id="to">To</span>
-                <input class="form-control" type="text" placeholder="" aria-label="Username" aria-describedby="to">
-              </div>
-              <div class="form-group">
-                <label class="form-label" for="message">Message</label>
-                <textarea class="form-control" id="message" name="textarea" cols="3" rows="5" placeholder=""></textarea>
-              </div>
-              <button class="btn btn-primary w-100" type="submit">Send</button>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="page-content-wrapper py-3">           
-      <!-- Add New Contact-->
-     
+    <div class="page-content-wrapper py-3">
       <div class="container">
-        <div class="card mb-2">
-          <div class="card-body p-2">
-            <div class="chat-search-box">
-              <form action="#">
-                <div class="input-group"><span class="input-group-text" id="searchbox"><i class="bi bi-search"></i></span>
-                  <input class="form-control" type="search" placeholder="Search users or messages" aria-describedby="searchbox">
-                </div>
-              </form>
+        <!-- Service Card-->
+        <div class="card service-card bg-success bg-gradient mb-3">
+          <div class="card-body">
+            <div class="d-flex align-items-center">
+              <div class="service-text">
+                <h5>USK</h5>
+                <p class="mb-0">Universitas Syiah Kuala</p>
+              </div>
+              <div class="service-img"><img src="img/usk1.jpg" alt=""></div>
             </div>
           </div>
         </div>
-        <!-- User Status Slide-->
-        <div class="chat-user-status-slides owl-carousel mb-2">
-          <!-- Single Status Slide-->
-          <div class="user-status-slide"><a href="#"><img src="img/user/reza.jpg" alt="">
-              <div class="active-status"><img src="img/user/chek.png" alt=""></div>
-              <p class="mb-0 mt-2 text-truncate">reza fahrevi</p></a></div>
-          <!-- Single Status Slide-->
-          <div class="user-status-slide"><a href="#"><img src="img/bg-img/user2.png" alt="">
-              <div class="active-status"></div>
-              <p class="mb-0 mt-2 text-truncate">Afrin</p></a></div>
-          <!-- Single Status Slide-->
-          <div class="user-status-slide"><a href="#"><img src="img/bg-img/user3.png" alt="">
-              <div class="active-status"></div>
-              <p class="mb-0 mt-2 text-truncate">Fairoze</p></a></div>
-          <!-- Single Status Slide-->
-          <div class="user-status-slide offline"><a href="#"><img src="img/bg-img/user4.png" alt="">
-              <div class="active-status"></div>
-              <p class="mb-0 mt-2 text-truncate">ReFresh</p></a></div>
-          <!-- Single Status Slide-->
-          <div class="user-status-slide"><a href="#"><img src="img/bg-img/user1.png" alt="">
-              <div class="active-status"></div>
-              <p class="mb-0 mt-2 text-truncate">রবিন</p></a></div>
-          <!-- Single Status Slide-->
-          <div class="user-status-slide offline"><a href="#"><img src="img/bg-img/user2.png" alt="">
-              <div class="active-status"></div>
-              <p class="mb-0 mt-2 text-truncate">Hasnain</p></a></div>
+        <!-- Service Card-->
+        <div class="card service-card bg-primary bg-gradient mb-3">
+          <div class="card-body">
+            <div class="d-flex align-items-center">
+              <div class="service-text">
+                <h5>Rahwana shirt </h5>
+                <p class="mb-0">Fashion style ,Shirt,</p>
+              </div>
+              <div class="service-img"><img src="img/rahwan.png" alt=""></div>
+            </div>
+          </div>
         </div>
-        <!-- Element Heading-->
-        <div class="element-heading">
-          <h6 class="ps-1">Rekomendasi</h6>
+        <!-- Service Card-->
+        <div class="card service-card bg-success bg-gradient mb-3">
+          <div class="card-body">
+            <div class="d-flex align-items-center">
+              <div class="service-text">
+                <h5>Dotja Studio</h5>
+                <p class="mb-0">Branding Desain</p>
+              </div>
+              <div class="service-img"><img src="img/logoputih2.png" alt=""></div>
+            </div>
+          </div>
         </div>
-        <!-- Chat User List-->
-        <ul class="ps-0 chat-user-list">
-          <!-- Single Chat User-->
-          <li class="p-3 chat-unread"><a class="d-flex" href="userpreneur.html">
-              <!-- Thumbnail-->
-              <div class="chat-user-thumbnail me-3 shadow"><img class="img-circle" src="img/preneur/ady.jpg" alt=""></div>
-              <!-- Info-->
-              <div class="chat-user-info">
-                <h6 class="text-truncate mb-0">Ady Pratama</h6>
-                <div class="last-chat">
-                <span class="badge rounded-pill bg-primary ms-2">AgriPreneurship</span><span class="badge rounded-pill bg-success ms-2">verify</span><p class="mb-0 text-truncate">inves</p>
-                </div>
-              </div></a>
-            <!-- Options-->
-            <div class="dropstart chat-options-btn">
-              <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-three-dots-vertical"></i></button>
-              <ul class="dropdown-menu">
-                <li><a href="#"><i class="bi bi-mic-mute"></i>Mute</a></li>
-                <li><a href="#"><i class="bi bi-slash-circle"></i>Ban</a></li>
-                <li><a href="#"><i class="bi bi-trash"></i>Remove</a></li>
-              </ul>
+        <!-- Service Card-->
+        <div class="card service-card bg-warning bg-gradient mb-3">
+          <div class="card-body">
+            <div class="d-flex align-items-center">
+              <div class="service-text">
+                <h5>Agri Connect</h5>
+                <p class="mb-0">Aplikasi Penghubung aktivitas Kinerja Petani</p>
+              </div>
+              <div class="service-img"><img src="img/conec.png" alt=""></div>
             </div>
-          </li>
-          <!-- Single Chat User-->
-       <ul class="ps-0 chat-user-list">
-          <!-- Single Chat User-->
-          <li class="p-3 chat-unread"><a class="d-flex" href="page-chat.html">
-              <!-- Thumbnail-->
-              <div class="chat-user-thumbnail me-3 shadow"><img class="img-circle" src="img/user/reza.jpg" alt=""></div>
-              <!-- Info-->
-              <div class="chat-user-info">
-                <h6 class="text-truncate mb-0">Bagas</h6>
-                <div class="last-chat">
-                <span class="badge rounded-pill bg-primary ms-2">AgriPreneur</span><span class="badge rounded-pill bg-success ms-2">verify</span><p class="mb-0 text-truncate">AgriPreneur</p>
-                </div>
-              </div></a>
-            <!-- Options-->
-            <div class="dropstart chat-options-btn">
-              <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-three-dots-vertical"></i></button>
-              <ul class="dropdown-menu">
-                <li><a href="#"><i class="bi bi-mic-mute"></i>Mute</a></li>
-                <li><a href="#"><i class="bi bi-slash-circle"></i>Ban</a></li>
-                <li><a href="#"><i class="bi bi-trash"></i>Remove</a></li>
-              </ul>
+          </div>
+        </div>
+        <!-- Service Card-->
+        <div class="card service-card bg-danger bg-gradient mb-3">
+          <div class="card-body">
+            <div class="d-flex align-items-center">
+              <div class="service-text">
+                <h5>jQuery</h5>
+                <p class="mb-0">The write less, do more with JavaScript Library.</p>
+              </div>
+              <div class="service-img"><img src="img/bg-img/connect.jpg" alt=""></div>
             </div>
-          </li>
-          <!-- Single Chat User-->
-          <<ul class="ps-0 chat-user-list">
-          <!-- Single Chat User-->
-          <li class="p-3 chat-unread"><a class="d-flex" href="page-chat.html">
-              <!-- Thumbnail-->
-              <div class="chat-user-thumbnail me-3 shadow"><img class="img-circle" src="img/user/reza.jpg" alt=""></div>
-              <!-- Info-->
-              <div class="chat-user-info">
-                <h6 class="text-truncate mb-0">Safrizal</h6>
-                <div class="last-chat">
-                <span class="badge rounded-pill bg-primary ms-2">AgriPreneur</span><span class="badge rounded-pill bg-success ms-2">verify</span><p class="mb-0 text-truncate">PT .....</p>
-                </div>
-              </div></a>
-            <!-- Options-->
-            <div class="dropstart chat-options-btn">
-              <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-three-dots-vertical"></i></button>
-              <ul class="dropdown-menu">
-                <li><a href="#"><i class="bi bi-mic-mute"></i>Mute</a></li>
-                <li><a href="#"><i class="bi bi-slash-circle"></i>Ban</a></li>
-                <li><a href="#"><i class="bi bi-trash"></i>Remove</a></li>
-              </ul>
+          </div>
+        </div>
+        <!-- Service Card-->
+       
+        <!-- Service Card-->
+        <div class="card service-card bg-primary bg-gradient mb-3">
+          <div class="card-body">
+            <div class="d-flex align-items-center">
+              <div class="service-text">
+                <h5>SCSS</h5>
+                <p class="mb-0">Sass is the most mature, stable, and powerful professional grade CSS.</p>
+              </div>
+              <div class="service-img"><img src="img/demo-img/sass.png" alt=""></div>
             </div>
-          </li>
-          <!-- Single Chat User-->
-         <ul class="ps-0 chat-user-list">
-          <!-- Single Chat User-->
-          <li class="p-3 chat-unread"><a class="d-flex" href="page-chat.html">
-              <!-- Thumbnail-->
-              <div class="chat-user-thumbnail me-3 shadow"><img class="img-circle" src="img/user/reza.jpg" alt=""></div>
-              <!-- Info-->
-              <div class="chat-user-info">
-                <h6 class="text-truncate mb-0">Messi</h6>
-                <div class="last-chat">
-                <span class="badge rounded-pill bg-primary ms-2">AgriPreneur</span><span class="badge rounded-pill bg-dark ms-2">non verify</span><p class="mb-0 text-truncate">Dinas</p>
-                </div>
-              </div></a>
-            <!-- Options-->
-            <div class="dropstart chat-options-btn">
-              <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-three-dots-vertical"></i></button>
-              <ul class="dropdown-menu">
-                <li><a href="#"><i class="bi bi-mic-mute"></i>Mute</a></li>
-                <li><a href="#"><i class="bi bi-slash-circle"></i>Ban</a></li>
-                <li><a href="#"><i class="bi bi-trash"></i>Remove</a></li>
-              </ul>
+          </div>
+        </div>
+        <!-- Service Card-->
+        <div class="card service-card bg-warning bg-gradient">
+          <div class="card-body">
+            <div class="d-flex align-items-center">
+              <div class="service-text">
+                <h5>Dark mode</h5>
+                <p class="mb-0">Dark mode makes it easier to stay focused on your work.</p>
+              </div>
+              <div class="service-img"><img src="img/demo-img/dark.png" alt=""></div>
             </div>
-          </li>
-          <!-- Single Chat User-->
-         <ul class="ps-0 chat-user-list">
-          <!-- Single Chat User-->
-          <li class="p-3 chat-unread"><a class="d-flex" href="page-chat.html">
-              <!-- Thumbnail-->
-              <div class="chat-user-thumbnail me-3 shadow"><img class="img-circle" src="img/user/reza.jpg" alt=""></div>
-              <!-- Info-->
-              <div class="chat-user-info">
-                <h6 class="text-truncate mb-0">kakek</h6>
-                <div class="last-chat">
-                <span class="badge rounded-pill bg-primary ms-2">AgriPreneur</span><span class="badge rounded-pill bg-success ms-2">verify</span><p class="mb-0 text-truncate">Mandiri</p>
-                </div>
-              </div></a>
-            <!-- Options-->
-            <div class="dropstart chat-options-btn">
-              <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-three-dots-vertical"></i></button>
-              <ul class="dropdown-menu">
-                <li><a href="#"><i class="bi bi-mic-mute"></i>Mute</a></li>
-                <li><a href="#"><i class="bi bi-slash-circle"></i>Ban</a></li>
-                <li><a href="#"><i class="bi bi-trash"></i>Remove</a></li>
-              </ul>
-            </div>
-          </li>
-          <!-- Single Chat User-->
-          <ul class="ps-0 chat-user-list">
-          <!-- Single Chat User-->
-          <li class="p-3 chat-unread"><a class="d-flex" href="page-chat.html">
-              <!-- Thumbnail-->
-              <div class="chat-user-thumbnail me-3 shadow"><img class="img-circle" src="img/user/reza.jpg" alt=""></div>
-              <!-- Info-->
-              <div class="chat-user-info">
-                <h6 class="text-truncate mb-0">Rospaini</h6>
-                <div class="last-chat">
-                <span class="badge rounded-pill bg-primary ms-2">AgriPreneur</span><span class="badge rounded-pill bg-success ms-2">verify</span><p class="mb-0 text-truncate">grub</p>
-                </div>
-              </div></a>
-            <!-- Options-->
-            <div class="dropstart chat-options-btn">
-              <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-three-dots-vertical"></i></button>
-              <ul class="dropdown-menu">
-                <li><a href="#"><i class="bi bi-mic-mute"></i>Mute</a></li>
-                <li><a href="#"><i class="bi bi-slash-circle"></i>Ban</a></li>
-                <li><a href="#"><i class="bi bi-trash"></i>Remove</a></li>
-              </ul>
-            </div>
-          </li>
-          <!-- Single Chat User-->
-          <li class="p-3"><a class="d-flex" href="page-chat.html">
-              <!-- Thumbnail-->
-              <div class="chat-user-thumbnail me-3 shadow"><img class="img-circle" src="img/bg-img/user2.png" alt=""><span class="active-status"></span></div>
-              <!-- Info-->
-              <div class="chat-user-info">
-                <h6 class="text-truncate mb-0">Hasnain Ahmeds</h6>
-                <div class="last-chat">
-                  <p class="text-truncate mb-0">Sure, Here are the purchase link. Please click the purchase now button, then fill up your all payment info.</p>
-                </div>
-              </div></a>
-            <!-- Options-->
-            <div class="dropstart chat-options-btn">
-              <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-three-dots-vertical"></i></button>
-              <ul class="dropdown-menu">
-                <li><a href="#"><i class="bi bi-mic-mute"></i>Mute</a></li>
-                <li><a href="#"><i class="bi bi-slash-circle"></i>Ban</a></li>
-                <li><a href="#"><i class="bi bi-trash"></i>Remove</a></li>
-              </ul>
-            </div>
-          </li>
-          <!-- Single Chat User-->
-          <li class="p-3 offline"><a class="d-flex" href="page-chat.html">
-              <!-- Thumbnail-->
-              <div class="chat-user-thumbnail me-3 shadow"><img class="img-circle" src="img/bg-img/user3.png" alt=""><span class="active-status"></span></div>
-              <!-- Info-->
-              <div class="chat-user-info">
-                <h6 class="text-truncate mb-0">Shaila Afrin</h6>
-                <div class="last-chat">
-                  <p class="text-truncate mb-0">You are welcome &#128525; &#128525;</p>
-                </div>
-              </div></a>
-            <!-- Options-->
-            <div class="dropstart chat-options-btn">
-              <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-three-dots-vertical"></i></button>
-              <ul class="dropdown-menu">
-                <li><a href="#"><i class="bi bi-mic-mute"></i>Mute</a></li>
-                <li><a href="#"><i class="bi bi-slash-circle"></i>Ban</a></li>
-                <li><a href="#"><i class="bi bi-trash"></i>Remove</a></li>
-              </ul>
-            </div>
-          </li>
-        </ul>
+          </div>
+        </div>
       </div>
     </div>
-       <!-- Footer Nav-->
+  <!-- Footer Nav-->
     <div class="footer-nav-area" id="footerNav">
       <div class="container px-0">
         <!-- Paste your Footer Content from here-->
